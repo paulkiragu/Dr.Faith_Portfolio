@@ -20,14 +20,19 @@ export default function GrantsPage() {
         </p>
       </div>
       <div className="max-w-6xl mx-auto px-6 pb-12">
-        <h2 className="text-2xl font-bold uppercase tracking-wide mb-2" style={{ fontFamily: "'Lora', serif", color: '#12355B' }}>
+
+        <h2 className="text-2xl font-bold uppercase tracking-wide mb-2"
+          style={{ fontFamily: "'Lora', serif", color: '#12355B' }}>
           Grants & Projects
         </h2>
-        <p className="text-sm leading-relaxed mb-8 max-w-2xl" style={{ fontFamily: "'Lora', serif", color: '#1b2a38AA' }}>
-          My research activities are supported through competitive grants and collaborative initiatives aimed at advancing innovation, education, and societal impact.
+        <p className="text-sm leading-relaxed mb-8 max-w-2xl"
+          style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
+          My research activities are supported through competitive grants and collaborative
+          initiatives aimed at advancing innovation, education, and societal impact.
         </p>
 
-        <h3 className="text-xl font-medium mb-5" style={{ fontFamily: "'Playfair Display', serif", color: '#1b2a38' }}>
+        <h3 className="text-xl font-medium mb-5"
+          style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
           Areas Supported
         </h3>
 
@@ -40,7 +45,8 @@ export default function GrantsPage() {
                   <DollarSign size={16} style={{ color: '#2a9d8f' }} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-sm font-semibold mb-1" style={{ fontFamily: "'Playfair Display', serif", color: '#12355B' }}>
+                  <h4 className="text-sm font-semibold mb-1"
+                    style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
                     {grant.title}
                   </h4>
                   <div className="flex flex-wrap gap-2 mb-2">
@@ -57,7 +63,8 @@ export default function GrantsPage() {
                       {grant.amount}
                     </span>
                   </div>
-                  <p className="text-xs leading-relaxed" style={{ fontFamily: "'Lora', serif", color: '#1b2a38AA' }}>
+                  <p className="text-xs leading-relaxed"
+                    style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
                     {grant.description}
                   </p>
                 </div>
@@ -65,6 +72,7 @@ export default function GrantsPage() {
             </div>
           ))}
         </div>
+
       </div>
     </div>
   );
