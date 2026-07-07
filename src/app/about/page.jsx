@@ -39,7 +39,7 @@ export default function AboutPage() {
             About Me
           </h2>
           <a
-            href="/cv.pdf"
+            href="/Dr. Faith Mueni_cv.pdf"
             download
             style={{ backgroundColor: '#2a9d8f', color: '#ffffff', fontFamily: "'Lora', serif" }}
             className="flex items-center gap-2 text-sm px-4 py-2 rounded hover:opacity-90 transition-all"
