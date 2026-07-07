@@ -29,13 +29,16 @@ const navLinks = [
     ],
   },
   {
-    label: 'Service',
-    href: '/service',
-    children: [
-      { label: 'Conference & Talks', href: '/service/conferences' },
-      { label: 'Community Service', href: '/service/community' },
-    ],
-  },
+  label: 'Service',
+  href: '/service',
+  children: [
+    { label: 'Leadership & Administration', href: '/service/leadership' },
+    { label: 'Curriculum Development', href: '/service/curriculum' },
+    { label: 'Professional Service', href: '/service/professional' },
+    { label: 'Conferences & Talks', href: '/service/conferences' },
+    { label: 'Training & Certifications', href: '/service/training' },
+  ],
+},
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -52,7 +55,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="font-playfair text-[#1b2a38] text-xl font-semibold tracking-wide">
-          Dr.F.Mueni
+          Dr.Faith Mueni Musyoka
         </Link>
 
         {/* Desktop Links */}
