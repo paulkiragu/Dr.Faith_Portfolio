@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, ExternalLink, CheckCircle2, AlertCircle, X } from 'lucide-react';
 
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/maqgkver';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xykqvonz';
 
 const initialForm = { name: '', email: '', subject: '', message: '' };
 
