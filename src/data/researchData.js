@@ -341,11 +341,11 @@ export const ongoingProjects = [
   },
   {
     id: 3,
-    title: 'Digital Intervention for Early Detection of Depression and Suicide Among Youth in Kenya',
+    title: 'AkiliBora: AI-Powered Mental Health Platform for University Students',
     role: 'Principal Investigator',
-    year: '2023 – 2025',
+    year: '2023 – To Date',
     description:
-      'IDRC and FCDO-funded research project focused on developing and evaluating digital interventions for the early detection and prevention of depression and suicide among youth in Kenya. Presented at the 4th Multisectoral Conference on Research, Science, Technology and Innovation (NACOSTI) and the RIM Project Annual Symposium in Côte d\'Ivoire.',
+      'AkiliBora is an AI-enabled mobile application developed to support the mental well-being of university students through early detection and intervention. The platform integrates a depression screening tool, an AI-powered chatbot for mental health support and suicide prevention, a digital repository of mental health resources, and a secure real-time communication module for connecting students with support services. The project aims to improve access to confidential mental health care, promote early intervention, and leverage data-driven insights to strengthen student wellness programs in higher education institutions.',
   },
   {
     id: 4,

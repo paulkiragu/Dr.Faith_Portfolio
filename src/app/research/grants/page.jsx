@@ -4,7 +4,7 @@ import { areasSupported, ongoingProjects } from '@/data/researchData';
 
 export const metadata = {
   title: 'Dr. Faith Mueni | Grants & Projects',
-  description: 'Research grants and ongoing projects by Dr. Faith Mueni.',
+  description: 'Research grants won and ongoing projects by Dr. Faith Mueni.',
 };
 
 export default function GrantsPage() {
@@ -24,7 +24,7 @@ export default function GrantsPage() {
 
         <h2 className="text-2xl font-bold uppercase tracking-wide mb-2"
           style={{ fontFamily: "'Lora', serif", color: '#12355B' }}>
-          Grants & Projects
+          Grants won & Projects
         </h2>
         <p className="text-sm leading-relaxed mb-8 max-w-2xl"
           style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
@@ -35,7 +35,7 @@ export default function GrantsPage() {
         {/* ── RESEARCH GRANTS ── */}
         <h3 className="text-xl font-medium mb-5"
           style={{ fontFamily: "'Lora', serif", color: '#1b2a38' }}>
-          Research Grants
+          Research Grants Won
         </h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">

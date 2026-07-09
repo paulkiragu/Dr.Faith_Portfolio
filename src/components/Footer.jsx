@@ -32,7 +32,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-3">
             <a
-              href="Linkedin: https://www.linkedin.com/in/dr-faith-m-4ab5b133/"
+              href="https://www.linkedin.com/in/dr-faith-m-4ab5b133/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/50 hover:text-accent transition-colors"
@@ -75,7 +75,7 @@ export default function Footer() {
             <li className="flex items-start gap-2 text-white/60">
               <Mail size={13} className="mt-0.5 flex-shrink-0 text-accent" />
               <a
-                href="mailto:faith.mueni@university.ac.ke"
+                href="mailto:mueni.faith@embuni.ac.ke"
                 className="font-lora text-xs hover:text-white transition-colors"
               >
                 mueni.faith@embuni.ac.ke
