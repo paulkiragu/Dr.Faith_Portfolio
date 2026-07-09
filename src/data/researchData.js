@@ -320,3 +320,39 @@ export const areasSupported = [
       'Co-Principal Investigator. Applying Generative AI to enhance practical teaching of computer programming using a high-level language.',
   },
 ];
+
+// Ongoing Projects
+export const ongoingProjects = [
+  {
+    id: 1,
+    title: 'University of Embu Counselling Service Platform',
+    role: 'Project Lead & Developer',
+    year: '2026 – To Date',
+    description:
+      'Co-led and directly participated in the design and development of a digital counselling service platform to support student mental health and wellbeing at the University of Embu. Contributed to system architecture, feature design, and implementation of core modules for confidential support access, guided self-help resources, and digital screening and referral workflows. Ensured integration of data privacy safeguards, ethical AI use principles, and responsible data governance practices.',
+  },
+  {
+    id: 2,
+    title: 'AI for Climate-Smart Cowpea Production Initiative',
+    role: 'Project Lead',
+    year: '2026 – To Date',
+    description:
+      'Leading an independent initiative aimed at improving climate-smart cowpea production through field demonstrations, agronomic data collection, and application of digital technologies. The initiative focuses on documenting crop performance, pest and disease occurrence, and production practices to support future AI-driven decision support systems and sustainable agricultural development among smallholder farmers.',
+  },
+  {
+    id: 3,
+    title: 'Digital Intervention for Early Detection of Depression and Suicide Among Youth in Kenya',
+    role: 'Principal Investigator',
+    year: '2023 – 2025',
+    description:
+      'IDRC and FCDO-funded research project focused on developing and evaluating digital interventions for the early detection and prevention of depression and suicide among youth in Kenya. Presented at the 4th Multisectoral Conference on Research, Science, Technology and Innovation (NACOSTI) and the RIM Project Annual Symposium in Côte d\'Ivoire.',
+  },
+  {
+    id: 4,
+    title: 'AI Ethics and Data Governance Youth Capacity Building Initiative',
+    role: 'Project Lead',
+    year: '2025 – To Date',
+    description:
+      'Designed and launched a capacity building initiative focused on AI ethics and data governance for youth and students. Developed practical training modules on responsible AI use, data privacy, digital rights, bias awareness, and safe use of AI tools in learning and work environments. Delivering workshops and outreach sessions in partnership with youth and education institutions.',
+  },
+];
