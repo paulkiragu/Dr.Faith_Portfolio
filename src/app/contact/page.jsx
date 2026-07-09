@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, ExternalLink, CheckCircle2, AlertCircle, X } from 'lucide-react';
 
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xykqvonz';
+const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
 
 const initialForm = { name: '', email: '', subject: '', message: '' };
 
@@ -48,6 +48,13 @@ export default function ContactPage() {
 
   async function handleSubmit(e) {
     e.preventDefault();
+
+    if (!FORMSPREE_ENDPOINT) {
+      setStatus('error');
+      showToast('error', 'Contact form is not configured. Please email me directly.');
+      return;
+    }
+
     const validationErrors = validate(form);
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
