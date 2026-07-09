@@ -16,7 +16,7 @@ export const exploreCards = [
   {
     id: 3,
     icon: 'grants',
-    title: 'Grants & Projects',
+    title: 'Grants Won & Projects',
     description: 'Focus areas, methods, current projects',
     href: '/research/grants',
   },

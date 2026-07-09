@@ -17,7 +17,7 @@ const navLinks = [
     children: [
       { label: 'Research Profile', href: '/research/profile' },
       { label: 'Publications', href: '/research/publications' },
-      { label: 'Grants & Projects', href: '/research/grants' },
+      { label: 'Grants Won & Projects', href: '/research/grants' },
     ],
   },
   {
